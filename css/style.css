@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair&family=Playfair+Display:wght@600&family=Raleway:wght@300;600&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+  
+body{
+    background-color:  #EDDDC3;
+}
+
+a{
+    color: #000000;
+    font-family: 'Playfair', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    background-color: #C6A981;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 5);
+}
+
+body{
+    background-repeat: no-repeat;
+}
+
+.logo img{
+    width: 150px;
+    
+}
+
+.logo img:hover{
+    filter: drop-shadow(3px 3px 3px #1F1F1F);
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+li{
+    margin-right: 15px;
+    font-family: 'Playfair', serif;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+i{
+    margin-right: 10px;
+}
+li:hover{
+    filter: drop-shadow(3px 3px 3px #1F1F1F);
+}
+
+h1{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.autor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.autor-item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 300px;
+}
+
+.autor-item img{
+    clip-path: circle();
+    width: 300px;
+    height: 280px;
+    margin: 20px;
+
+}
+
+.autor-item a:hover{
+    filter: drop-shadow(3px 3px 3px #1F1F1F); 
+}
+
+.passagem img{
+    height: 300px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.passagem{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.escrita{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bt{
+    display: flex;
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 90%;
+    font-weight: 500;
+    color:#ffff;
+    background: linear-gradient(to right, #C6A981, #ffff);
+    margin-top: 20px;
+   
+    
+}
+a{
+    text-decoration: none;
+
+    
+}
+
+.biografia p{
+    
+    margin: 30px;
+    
+}
+ .biografia{
+    width: 500px;
+    border: 5px solid #C6A981;
+    text-align: justify;
+    margin: 30px;
+ }
+
+ .item{
+    width: 500px;
+    height: 690px;
+    border: 5px solid #C6A981;
+    text-align: justify;
+    margin: 30px;
+ }
+
+.section1{
+    justify-content: center;
+    display: flex;
+}
+
+ .economia p{
+    
+    margin: 30px;
+    
+}
+ .economia{
+    width: 600px;
+    border: 5px solid #C6A981;
+    text-align: justify;
+    margin: 30px;
+ }
+
+.biografia img{
+    border-radius: 60px;
+    padding: 40px;
+    justify-content: center;
+    margin-left: 75px;
+
+}
+
+.capa img{
+    margin: 10%;
+    border-radius: 50pxs;
+
+}
+
+.item img{
+    width: 500px;
+}
+
+.item{
+    width: 500px;
+    height: 685px;
+    border: 5px solid #C6A981;
+    
+}
+
+.caixa{
+    width: 458px;
+    border: 5px solid #C6A981;
+    margin:30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.master{
+    display: flex;
+    justify-content: center;
+}
+
+.caixa h1{
+    margin: 20px;
+}
+
+.romantismo img{
+    border-radius: 60px;
+    padding: 40px;
+    justify-content: center;
+    margin-left: 75px;
+    
+}
+
+.marifer{
+    padding: 10px;
+    border: 5px solid #C6A981;
+    margin: 10px;
+
+}
+
+.bia{
+    padding: 50px;
+    justify-content: center;
+    margin:10px;
+    flex-wrap:wrap-reverse;
+}
+.autor-item{
+    margin: 10px;
+    text-align: justify;
+}
+p{
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.folhas img{
+    width: 400px;
+    height: 500px;
+    margin-left: -2px;
+}

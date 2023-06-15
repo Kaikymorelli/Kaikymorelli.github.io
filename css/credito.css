@@ -1,0 +1,54 @@
+.credito{
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+}
+
+.mestre{
+    display: flex;
+    justify-content: center;
+}
+
+.analise p{
+    
+    margin: 30px;
+    
+}
+.analise{
+        width: 900px;
+        border: 5px solid #C6A981;
+        text-align: justify;
+        margin: 25px;
+}
+
+.analise img{
+    border-radius: 60px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+.kaiky img{
+    width: 400px;
+    height: 400px;
+    margin-top:27px ;
+    border: 5px solid #C6A981;
+}
+
+.mestre{
+    margin: 40px;
+    justify-content: center;
+    display: flex; 
+}
+
+.book img{
+    width: 300px;
+    height: 400px;
+    margin-top:27px ;
+}
+
+.referencias{
+    text-align: center;
+}
